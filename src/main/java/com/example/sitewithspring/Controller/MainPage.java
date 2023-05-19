@@ -17,6 +17,11 @@ public class MainPage {
         model.addAttribute("id", "mainPage");
         return "mainPage";
     }
+    @GetMapping("/review")
+    public String review(Model model){
+        model.addAttribute("id", "review");
+        return "review";
+    }
 
     @GetMapping("/reg")
     public String regPage(Model model){
