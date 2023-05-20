@@ -13,7 +13,7 @@
     padding: 20px 0;
 }
 
-.organization {
+.new-review-header {
     background-color: #ee3f58;
     padding: 20px 35px;
     border: transparent;
@@ -67,8 +67,16 @@
     justify-content: left;
     border-radius: 50px;
     background-color: #3c67eb;
-    padding: 5px 10px;
+    padding: 9px 15px;
     color: #FFFFFF;
+}
+
+.suggestion .review-header-left-side {
+    background-color: #ffa51d;
+}
+
+.complain .review-header-left-side {
+    background-color: #ee3f58;
 }
 
 .review-header-left-side-user-profile {
@@ -151,26 +159,7 @@ span.review-right-side-date-text {
     color: #FFFFFF;
 }
 
-.suggestion .review-header-left-side {
-    background-color: #ffa51d;
-    border-radius: 50px;
-    padding: 5px 10px;
-    color: #FFFFFF;
-}
 
-.complain .review-header-left-side {
-    background-color: #ee3f58;
-    border-radius: 50px;
-    padding: 5px 10px;
-    color: #FFFFFF;
-}
-
-.basic .review-header-left-side {
-    border-radius: 50px;
-    background-color: #ffa51d;
-    padding: 5px 10px;
-    color: #FFFFFF;
-}
 
 .review-right-side-rank-text {
     font-weight: 600;
