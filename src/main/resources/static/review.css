@@ -7,13 +7,9 @@
     padding-bottom: 20px;
 }
 
-.map {
-    width: 900px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
 
-.new-review-header {
+/*---------organization-header------------------------------------------------*/
+.organization-header {
     background-color: #ee3f58;
     padding: 20px 35px;
     border: transparent;
@@ -45,6 +41,16 @@
     display: inline;
 }
 
+
+/*-------map------------------------------------------------------------------*/
+.map {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+/*-------reviews------------------------------------------------------------------*/
 .reviews {
     max-width: 1000px;
     margin: 0 auto;
@@ -62,6 +68,8 @@
     justify-content: space-between;
 }
 
+
+/*-------review header left------------------------------------------*/
 .review-header-left-side {
     display: flex;
     justify-content: left;
@@ -110,6 +118,8 @@ span.review-header-left-side-user-profile-name-text {
     font-size: 17px;
 }
 
+
+/*-------review header left------------------------------------------*/
 .review-right-side {
     display: flex;
     justify-content: right;
@@ -131,6 +141,14 @@ span.review-right-side-date-text {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.review-right-side-rank-text {
+    font-weight: 600;
+    font-size: 17px;
+    padding-left: 3px;
+}
+
+
+/*-------review body------------------------------------------*/
 .review-body {
     padding: 17px 20px;
 }
@@ -140,6 +158,8 @@ span.review-right-side-date-text {
     font-size: 17.5px;
 }
 
+
+/*-------new review button------------------------------------------*/
 .new-review {
     margin-top: 35px;
     margin-bottom: 15px;
@@ -157,12 +177,4 @@ span.review-right-side-date-text {
 .new-review-button:hover {
     background-color: #ee3f58;
     color: #FFFFFF;
-}
-
-
-
-.review-right-side-rank-text {
-    font-weight: 600;
-    font-size: 17px;
-    padding-left: 3px;
 }
