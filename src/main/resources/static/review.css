@@ -1,12 +1,26 @@
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 20px;
+    padding: 0 20px 20px;
 }
 
+@media (max-width: 1100px){
+    .wrapper {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px){
+    .wrapper {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px){
+    .wrapper {
+        max-width: none;
+    }
+}
 
 /*---------organization-header------------------------------------------------*/
 .organization-header {
@@ -44,9 +58,22 @@
 
 /*-------map------------------------------------------------------------------*/
 .map {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px 0;
+}
+
+@media (max-width: 992px){
+    .map {
+        max-width: 680px;
+    }
+}
+
+@media (max-width: 767px){
+    .map {
+        max-width: none;
+        margin: 0 25px;
+    }
 }
 
 
@@ -68,6 +95,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 767px){
+    .review-header {
+        display: block;
+    }
+}
+
 
 /*-------review header left------------------------------------------*/
 .review-header-left-side {
@@ -77,6 +110,19 @@
     background-color: #3c67eb;
     padding: 9px 15px;
     color: #FFFFFF;
+}
+
+@media (max-width: 767px){
+    .review-header-left-side {
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 423px){
+    .review-header-left-side {
+        display: block;
+        border-radius: 35px;
+    }
 }
 
 .suggestion .review-header-left-side {
@@ -113,6 +159,12 @@ span.review-header-left-side-user-profile-name-text {
     padding-left: 15px;
 }
 
+@media (max-width: 423px){
+    .review-header-left-side-type {
+        padding-left: 35px;
+    }
+}
+
 .review-header-left-side-type-text {
     font-weight: 400;
     font-size: 17px;
@@ -123,6 +175,18 @@ span.review-header-left-side-user-profile-name-text {
 .review-right-side {
     display: flex;
     justify-content: right;
+}
+
+@media (max-width: 767px) {
+    .review-right-side {
+        justify-content: left;
+    }
+}
+
+@media (max-width: 423px){
+    .review-right-side {
+        margin-bottom: 4px;
+    }
 }
 
 .review-right-side-date {

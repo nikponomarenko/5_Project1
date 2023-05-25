@@ -37,9 +37,11 @@
     <section class="new-review-info">
         <form class="new-review-info-form" action="#">
             <div class="new-review-info-form-block">
-                <input class="radio-button review-type" checked type="radio" name="review_type" value="review"><span class="radio-button-text">Отзыв</span>
-                <input class="radio-button review-type" type="radio" name="review_type" value="complain"><span class="radio-button-text">Жалоба</span>
-                <input class="radio-button review-type" type="radio" name="review_type" value="suggestion"><span class="radio-button-text">Предложение</span>
+                <div class="review-type">
+                    <div><input class="radio-button review-type" checked type="radio" name="review_type" value="review"><span class="radio-button-text">Отзыв</span></div>
+                    <div><input class="radio-button review-type" type="radio" name="review_type" value="complain"><span class="radio-button-text">Жалоба</span></div>
+                    <div><input class="radio-button review-type" type="radio" name="review_type" value="suggestion"><span class="radio-button-text">Предложение</span></div>
+                </div>
             </div>
             <div class="new-review-info-form-block">
                 <span class="new-review-info-form-header-text">Ваши данные</span>
@@ -75,11 +77,13 @@
                 <span class="new-review-info-form-header-text">Ваше сообщение</span>
                 <div class="new-review-info-form-rank">
                 <span class="input-header">Оценка</span>
-                    <input class="radio-button" type="radio" name="review_rank" value="1"><span class="radio-button-text">1</span>
-                    <input class="radio-button" type="radio" name="review_rank" value="2"><span class="radio-button-text">2</span>
-                    <input class="radio-button" type="radio" name="review_rank" value="3"><span class="radio-button-text">3</span>
-                    <input class="radio-button" type="radio" name="review_rank" value="4"><span class="radio-button-text">4</span>
-                    <input class="radio-button" type="radio" name="review_rank" value="5"><span class="radio-button-text">5</span>
+                    <div class="rank-radio">
+                        <div><input class="radio-button" type="radio" name="review_rank" value="1"><span class="radio-button-text">1</span></div>
+                        <div><input class="radio-button" type="radio" name="review_rank" value="2"><span class="radio-button-text">2</span></div>
+                        <div><input class="radio-button" type="radio" name="review_rank" value="3"><span class="radio-button-text">3</span></div>
+                        <div><input class="radio-button" type="radio" name="review_rank" value="4"><span class="radio-button-text">4</span></div>
+                        <div><input class="radio-button" type="radio" name="review_rank" value="5"><span class="radio-button-text">5</span></div>
+                    </div>
                 </div>
                 <div class="new-review-info-form-textarea">
                     <span class="input-header" >Сообщение</span>
