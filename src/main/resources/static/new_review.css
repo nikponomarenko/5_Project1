@@ -9,6 +9,7 @@
 
 /*------------new review header---------------------------------*/
 .new-review-header {
+    background-color: #3c67eb;
     padding: 20px 35px;
     border: transparent;
     border-radius: 25px;
@@ -153,6 +154,7 @@ textarea.input-field {
 .send-review-button:hover {
     color: #FFFFFF;
 }
+
 .review .send-review-button:hover {
     background-color: #3c67eb;
 }
@@ -164,7 +166,6 @@ textarea.input-field {
 .complain .send-review-button:hover {
     background-color: #ee3f58;
 }
-
 
 
 .send {
