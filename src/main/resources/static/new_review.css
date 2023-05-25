@@ -7,6 +7,7 @@
     padding-bottom: 20px;
 }
 
+/*------------new review header---------------------------------*/
 .new-review-header {
     background-color: #3c67eb;
     padding: 20px 35px;
@@ -24,6 +25,7 @@
     font-family: Roboto, serif;
 }
 
+/*------------new review info---------------------------------*/
 .new-review-info {
     max-width: 900px;
     margin: 20px auto;
@@ -32,6 +34,56 @@
     padding: 45px 70px;
 }
 
+.new-review-info-form-block {
+    border: #3c67eb solid 3px;
+    border-radius: 22px;
+    padding: 19px;
+    margin-bottom: 15px;
+}
+
+.new-review-info-form-block > div {
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+.radio-button-text {
+    padding-left: 4px;
+    padding-right: 20px;
+}
+
+.new-review-info-form-header-text {
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.new-review-info-organization-type-select {
+    width: 100%;
+    margin-right: 15px;
+    border-radius: 35px;
+    padding: 2.5px 10px;
+    border: #3c67eb solid 2.5px;
+}
+
+.input-header {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input-field {
+    border: #3c67eb solid 2.5px;
+    border-radius: 35px;
+    width: 100%;
+    padding: 2.5px 10px;
+}
+
+textarea.input-field {
+    margin-top: 5px;
+    padding: 2.5px 23px;
+}
+
+/*------send button------------------------------*/
 .send-review {
     margin-top: 35px;
     margin-bottom: 15px;
@@ -56,57 +108,3 @@
 .send {
     margin-top: 45px;
 }
-
-.radio-button-text {
-    padding-left: 4px;
-    padding-right: 20px;
-}
-
-.new-review-info-form-block {
-    border: #3c67eb solid 3px;
-    border-radius: 22px;
-    padding: 19px;
-    margin-bottom: 15px;
-}
-
-.new-review-info-form-header-text {
-    margin-bottom: 2px;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.new-review-info-form-block > div {
-    padding-top: 8px;
-    margin-left: 15px;
-}
-
-.input-field {
-    border: #3c67eb solid 2.5px;
-    border-radius: 35px;
-    width: 100%;
-    padding: 2.5px 10px;
-}
-
-.new-review-info-organization-type-select {
-    width: 100%;
-    margin-right: 15px;
-    border-radius: 35px;
-    padding: 2.5px 10px;
-    border: #3c67eb solid 2.5px;
-}
-
-.input-header {
-    display: block;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.radio-button {
-    border-color: #3c67eb;
-}
-
-textarea.input-field {
-    margin-top: 5px;
-    padding: 2.5px 23px;
-}
-
