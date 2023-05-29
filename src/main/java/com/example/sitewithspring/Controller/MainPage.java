@@ -29,6 +29,18 @@ public class MainPage {
         return "new_review";
     }
 
+    @GetMapping("/new_service")
+    public String newService(Model model) {
+        model.addAttribute("id", "new_service");
+        return "new_service";
+    }
+
+    @GetMapping("/not_verified")
+    public String notVerified(Model model) {
+        model.addAttribute("id", "not_verified");
+        return "not_verified";
+    }
+
     @GetMapping("/reg")
     public String regPage(Model model) {
         model.addAttribute("id", "registration");

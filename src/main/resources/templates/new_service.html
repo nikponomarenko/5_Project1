@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="​Только честные отзывы о услугах">
+  <meta name="description" content="">
+  <title>Новая услуга</title>
+  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <link rel="stylesheet" href="mainPage.css" media="screen">
+  <link rel="stylesheet" href="new_review.css" media="screen">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+  <meta name="generator" content="Nicepage 5.8.2, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "logo": "images/2267389.jpg"
+  }</script>
+  <meta name="theme-color" content="#478ac9">
+  <meta property="og:title" content="review">
+  <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+<body class="u-body u-xl-mode" data-lang="ru">
+<header class="u-clearfix u-custom-color-4 u-header u-header" id="sec-6153" th:insert="~{fragments/header}">
+</header>
+<div class="u-clearfix wrapper">
+  <section class="new-review-header">
+    <div class="new-review-header-name">
+      <span class="new-review-header-name-text">Новая услуга</span>
+    </div>
+  </section>
+  <section class="new-review-info">
+    <form class="new-review-info-form" action="#">
+      <div class="new-review-info-form-block">
+        <div class="new-review-info-organization-type">
+          <span class="input-header">Тип услуги</span>
+          <select class="input-field" name="service-type">
+            <option class="medical">Медицинская услуга</option>
+            <option class="educational">Образовательная услуга</option>
+            <option class="other">Другое</option>
+          </select>
+        </div>
+        <div>
+          <span class="input-header">Название услуги</span><input class="input-field" type="text" name="service_name" value="">
+        </div>
+        <div>
+          <span class="input-header">Адрес предоставления услуги</span><input class="input-field" type="tel" name="service_address" value="">
+        </div>
+        <div class="new-review-info-form-textarea">
+          <span class="input-header" >Описание</span>
+          <textarea class="input-field" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="send">
+        <button type="submit" class="send-review-button">Добавить услугу</button>
+      </div>
+    </form>
+  </section>
+</div>
+
+
+<footer class="u-align-center u-clearfix u-footer u-blue-80 u-footer" id="sec-a4c6" th:insert="~{fragments/footer}">
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

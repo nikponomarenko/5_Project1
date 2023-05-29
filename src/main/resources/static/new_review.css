@@ -122,14 +122,6 @@
     font-size: 18px;
 }
 
-.new-review-info-organization-type-select {
-    width: 100%;
-    margin-right: 15px;
-    border-radius: 35px;
-    padding: 2.5px 10px;
-    border: #3c67eb solid 2.5px;
-}
-
 .input-header {
     display: block;
     font-weight: 400;
